@@ -1,0 +1,111 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+
+  padding: 0;
+  padding-bottom: 50px;
+  min-height: 100%;
+}
+
+form {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form button,
+form h5 {
+  margin: 20px 0;
+}
+
+@media (min-width: 0px) {
+  .card {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .container {
+    padding: 0 !important;
+  }
+  td,
+  th {
+    padding: 5px 2px !important;
+    font-size: 13px;
+  }
+}
+
+/* // Small devices */
+@media (min-width: 576px) {
+  #sign-form {
+    width: 100%;
+  }
+  .card {
+    width: 50%;
+  }
+}
+/* 
+// Medium devices  */
+@media (min-width: 768px) {
+  #sign-form {
+    width: 75%;
+  }
+  .linechart-wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+/* // Large devices */
+@media (min-width: 992px) {
+  #sign-form {
+    width: 50% !important;
+  }
+}
+
+/* // Extra large devices */
+@media (min-width: 1200px) {
+  #sign-form {
+    width: 25% !important;
+  }
+}
+.custom-file-label {
+  z-index: 0 !important;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.apexcharts-legend {
+  /* margin-top: 500px; */
+   padding-top: 20px !important; 
+}
+.apexcharts-legend-text {
+  color: white !important;
+  font-size: 15px !important;
+}
+.toolbar > button {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 6px;
+  font-size: 16px;
+}
+.apexcharts-menu-item {
+  color: white;
+}
+.apexcharts-tooltip {
+  background: #444444;
+  color: #222222;
+}
+.col {
+  padding: 0 !important;
+}
+.row {
+  margin: 0 !important;
+}
+#one-month{
+  border-radius: 5px ;
+}
+#date, #profit, #band{
+  padding: 0;
+  margin: 0;
+}
