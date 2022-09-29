@@ -29,7 +29,7 @@
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "recharts": "^1.7.1",
+    "recharts": "^2.1.14",
     "redux": "^4.0.4",
     "redux-firestore": "^0.5.8",
     "redux-thunk": "^2.3.0"
